@@ -1,0 +1,99 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: hsl(226, 43%, 10%);
+  color: hsl(100, 100%, 100%);
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.userInformation, .card {
+  border-radius: 1rem;
+  background-color: hsl(235, 46%, 20%);
+  margin-top: 1rem;
+}
+
+.userInformation > div {
+  display: flex;
+  align-items: center;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#userPfp {
+  width: 4rem;
+  height: auto;
+  border: 3px solid hsl(100, 100%, 100%);
+  border-radius: 50%;
+}
+
+h1 {
+  font-weight: 300;
+  color: hsl(100, 100%, 100%);
+  padding-left: 1rem;
+}
+
+h1 > span {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.calendarNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: hsl(235, 45%, 61%);
+}
+
+.calendarNav > li:hover {
+  color: hsl(100, 100%, 100%);
+  cursor: pointer;
+}
+
+li.active {
+  color: hsl(100, 100%, 100%);
+}
+
+.card {
+  padding: 2rem;
+}
+
+.cardHeader, .cardInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardHeader {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+#ellipsis {
+  width: 21px;
+  height: 5px;
+  cursor: pointer;
+}
+
+.currentHours {
+  font-size: 2rem;
+}
+
+.previousHours {
+  font-size: .7rem;
+}
+
+.cardContainer {
+  background-color: red;
+}
