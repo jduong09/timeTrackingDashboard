@@ -31,6 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const btn = document.getElementById(arrOfBtns[j]);
 
     btn.addEventListener('click', () => {
+      const oldActive = document.getElementsByClassName('active');
+      console.log(oldActive);
+      if (oldActive.length !== 0) {
+        oldActive[0].classList.remove('active');
+      }
+      btn.classList.add('active');
       clearOldDivs();
       
       const arrayOfNames = ['work', 'play', 'study', 'exercise', 'social', 'selfCare'];
