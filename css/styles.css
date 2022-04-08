@@ -87,7 +87,7 @@ h2 {
   font-size: 18px;
 }
 
-#ellipsis {
+.ellipsis {
   width: 21px;
   height: 5px;
   cursor: pointer;
